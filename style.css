@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  width: 350px;
+  height: 150px;
+  position: relative; /* Родительский элемент */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Сдвиг на половину ширины и высоты */
+}
+.text-block{
+ 
+}
